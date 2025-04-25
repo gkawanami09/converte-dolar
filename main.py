@@ -15,7 +15,7 @@ def converter():
     except ValueError as e:
         return render_template('erro.html', mensagem=f"Entrada inválida: {e}")
     finally:
-        print("obrigado por usar o programa 😎")
+        print("obrigado por usar o programa ")
 
 if __name__ == '__main__':
     app.run(debug=True)
